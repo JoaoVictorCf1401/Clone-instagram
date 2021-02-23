@@ -118,3 +118,42 @@ body {
     align-items: center;
     padding: 1rem;
 }
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url("/img/googleplay.png");
+}
+
+.app-download:nth-child(2) {
+    background-image: url("/img/applestore.png");
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: white;
+    }
+    .container {
+        width: 90%;
+    }
+    .phone {
+        display: none;
+    }
+    .usuario {
+        width: 100%;
+    }
+    .grupo {
+        border: none;
+    }
+}
+
